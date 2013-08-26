@@ -1,4 +1,4 @@
-android_javascriptinterface
+Android Javascript Interface
 ===========================
 
-Android 
+Example of Javascript Interface of Java Object in Android.
