@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript">
+        function getPressure() {
+            var pressure = androidjsp.getPressure();
+            document.getElementById("res").innerHTML = "Pressione: " + pressure;
+        }
+    </script>
+</head>
+<body>
+    <button id="btnGetPressure" onclick="javascript:getPressure();">Display Pressure</button>
+    <p id="res"></p>
+</body>
+</html>
